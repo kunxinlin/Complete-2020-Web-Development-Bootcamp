@@ -1,0 +1,32 @@
+/* TAG SELECTORS */
+
+h1{
+  color: red;
+  font-size: 200px;
+}
+
+/* :hover is called a pseudo-class, used to define a special state of an element */
+img:hover {
+  background-color: gold;
+}
+/* CLASS SELECTORS */
+/* group related elements */
+
+.bacon{
+  background-color: green;
+}
+
+.broccoli{
+  background-color: red;
+}
+
+/*can have assign multiple classes to one element, seperated by space*/
+.circular{
+  border-radius: 100%;
+}
+/* ID SELECTORS */
+/* you can only have 1 unique id name on a page, whereas with class you can have multiple elements with the same class name */
+/* can't assign multiple id to the same element like with classes */
+#heading{
+  color: blue;
+}
